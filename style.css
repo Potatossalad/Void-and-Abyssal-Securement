@@ -29,6 +29,11 @@ a {
     font-weight: 350;
     color: red;
 }
+ul {
+    font-size: 1.1rem;
+    font-weight: 350;
+    color: black;
+}
 li {
     font-size: 1.1rem;
     font-weight: 350;
