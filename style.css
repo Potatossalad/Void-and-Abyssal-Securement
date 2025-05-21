@@ -34,3 +34,6 @@ li {
     font-weight: 350;
     color: black;
 }
+#deprecated {
+    color: purple;
+}
