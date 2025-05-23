@@ -39,6 +39,10 @@ li {
     font-weight: 350;
     color: black;
 }
+strong {
+    font-size: 1.1rem;
+    color: black;
+}
 #deprecated {
     color: purple;
 }
