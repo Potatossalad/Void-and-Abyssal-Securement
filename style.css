@@ -67,7 +67,7 @@ strong {
 .void-h2 {
     font-size: 1.52rem;
     font-weight: 600;
-    background-image: linear-gradient(#9518e2,#6c13a4,#5b175d);
+    background: linear-gradient(#9518e2,#6c13a4,#5b175d);
     color: transparent;
     background-clip: text;
 }
