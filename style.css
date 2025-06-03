@@ -64,17 +64,33 @@ strong {
     margin-bottom: auto;
     display: block;
 }
-.void-h2 {
+.void-main-h2 {
     font-size: 1.52rem;
     font-weight: 600;
-    background: linear-gradient(#9518e2,#6c13a4,#5b175d);
+    background: linear-gradient(#6c13a4,#9518e2,#5b175d);
     color: transparent;
     background-clip: text;
 }
-.void-h3 {
-    color: #9518e2;
-    
-    
+.void-main-p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    background: linear-gradient(to left, #9f20ee,#5b175d);
+    color: transparent;
+    background-clip: text;
+}
+.corrupting-void-h3 {
+    font-size: 1.35rem;
+    font-weight: 550;
+    background: linear-gradient(#A927F5, #8405CE);
+    color: transparent;
+    background-clip: text;
+}
+.corrupting-void-p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    background: linear-gradient(to left,#A927F5, #8405CE);
+    color: transparent;
+    background-clip: text;
 }
 /*Hearts Of Darkness*/
 #heart {
@@ -83,3 +99,8 @@ strong {
     margin-right: auto;
     width: 100%;
 }
+/*factions
+#factions-html {
+    background: black;
+}
+*/
