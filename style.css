@@ -64,6 +64,46 @@ strong {
     margin-bottom: auto;
     display: block;
 }
+.greater-factions-explanation {
+    font-size: 1.1rem;
+    font-weight: 350;
+    color: white;
+}
+.factions-celestials-p {
+    font-size: 1.1rem;
+    font-weight: 350;
+    color: white;
+}
+.factions-soul-p {
+    font-size: 1.1rem;
+    font-weight: 350;
+    color: white;
+}
+.factions-higher-p {
+    font-size: 1.1rem;
+    font-weight: 350;
+    color: white;
+}
+.factions-lower-p {
+    font-size: 1.1rem;
+    font-weight: 350;
+    color: white;
+}
+.factions-middle-p {
+    font-size: 1.1rem;
+    font-weight: 350;
+    color: white;
+}
+.factions-abyss-p {
+    font-size: 1.1rem;
+    font-weight: 350;
+    color: white;
+}
+.factions-resonance-p {
+    font-size: 1.1rem;
+    font-weight: 350;
+    color: white;
+}
 .void-main-h2 {
     font-size: 1.52rem;
     font-weight: 600;
@@ -85,10 +125,24 @@ strong {
     color: transparent;
     background-clip: text;
 }
+.pure-void-h3 {
+    font-size: 1.35rem;
+    font-weight: 550;
+    background: linear-gradient(#1b70a1,#1b70a1,#4ecfcf,#13ad7a);
+    color: transparent;
+    background-clip: text;
+}
 .corrupting-void-p {
     font-size: 1.1rem;
     font-weight: 400;
     background: linear-gradient(to left,#A927F5, #8405CE);
+    color: transparent;
+    background-clip: text;
+}
+.pure-void-p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    background: linear-gradient(to bottom right,#1b70a1,#1b70a1,#4ecfcf,#13ad7a);
     color: transparent;
     background-clip: text;
 }
@@ -99,8 +153,7 @@ strong {
     margin-right: auto;
     width: 100%;
 }
-/*factions
+/*factions*/
 #factions-html {
     background: black;
 }
-*/
