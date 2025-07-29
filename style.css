@@ -132,6 +132,11 @@ strong {
     color: transparent;
     background-clip: text;
 }
+.true-void-h3 {
+    font-size: 1.4rem;
+    font-weight: 550;
+    color: white;
+}
 .corrupting-void-p {
     font-size: 1.1rem;
     font-weight: 400;
@@ -145,6 +150,16 @@ strong {
     background: linear-gradient(to bottom right,#1b70a1,#1b70a1,#4ecfcf,#13ad7a);
     color: transparent;
     background-clip: text;
+}
+.true-void-p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+}
+.dark-mode-a {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: tomato;
 }
 /*Hearts Of Darkness*/
 #heart {
