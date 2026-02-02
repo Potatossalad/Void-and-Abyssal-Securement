@@ -1,3 +1,8 @@
+:root {
+    --p-font-size: 1.1rem;
+    --p-font-weight: 400;
+}
+
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     text-align: left;
@@ -26,27 +31,27 @@ h4 {
     color: forestgreen;
 }
 p {
-    font-size: 1.1rem;
+    font-size: var(--p-font-size);
     font-weight: 350;
     color: black;
 } 
 a {
-    font-size: 1.1rem;
+    font-size: var(--p-font-size);
     font-weight: 350;
     color: red;
 }
 ul {
-    font-size: 1.1rem;
+    font-size: var(--p-font-size);
     font-weight: 350;
     color: black;
 }
 li {
-    font-size: 1.1rem;
+    font-size: var(--p-font-size);
     font-weight: 350;
     color: black;
 }
 strong {
-    font-size: 1.1rem;
+    font-size: var(--p-font-size);
     color: black;
 }
 
@@ -65,43 +70,43 @@ strong {
     display: block;
 }
 .greater-factions-explanation {
-    font-size: 1.1rem;
+    font-size: var(--p-font-size);
     font-weight: 350;
     color: white;
 }
 .factions-celestials-p {
-    font-size: 1.1rem;
+    font-size: var(--p-font-size);
     font-weight: 350;
     color: white;
 }
 .factions-soul-p {
-    font-size: 1.1rem;
+    font-size: var(--p-font-size);
     font-weight: 350;
     color: white;
 }
 .factions-higher-p {
-    font-size: 1.1rem;
+    font-size: var(--p-font-size);
     font-weight: 350;
     color: white;
 }
 .factions-lower-p {
-    font-size: 1.1rem;
+    font-size: var(--p-font-size);
     font-weight: 350;
     color: white;
 }
 .factions-middle-p {
-    font-size: 1.1rem;
+    font-size: var(--p-font-size);
     font-weight: 350;
     color: white;
 }
 .factions-abyss-p {
-    font-size: 1.1rem;
+    font-size: var(--p-font-size);
     font-weight: 350;
     color: white;
 }
 .factions-resonance-p {
-    font-size: 1.1rem;
-    font-weight: 350;
+    font-size: var(--p-font-size);
+    font-weight: 400;
     color: white;
 }
 .void-main-h2 {
@@ -112,8 +117,8 @@ strong {
     background-clip: text;
 }
 .void-main-p {
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-weight);
     background: linear-gradient(to left, #9f20ee,#5b175d);
     color: transparent;
     background-clip: text;
@@ -138,28 +143,51 @@ strong {
     color: white;
 }
 .corrupting-void-p {
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-weight);
     background: linear-gradient(to left,#A927F5, #8405CE);
     color: transparent;
     background-clip: text;
 }
 .pure-void-p {
-    font-size: 1.1rem;
-    font-weight: 400;
-    background: linear-gradient(to bottom right,#1b70a1,#1b70a1,#4ecfcf,#13ad7a);
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-weight);
+    background: linear-gradient(to bottom right,#1b70a1,#1b70a1,#4ecfcf,#13ad7a,#13ad7a);
     color: transparent;
     background-clip: text;
 }
 .true-void-p {
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-weight);
     color: white;
 }
+.true-void-namespace {
+    color: black;
+    text-shadow:
+        -0.05rem -0.05rem 0 #fff,
+        -0.05rem 0.05rem 0 #fff,
+        0.05rem -0.05rem 0 #fff,
+        0.05rem 0.05rem 0 #fff
+}
 .dark-mode-a {
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-weight);
     color: tomato;
+}
+.demonic-void-gradient {
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-weight);
+    background: linear-gradient(to bottom right,#b00000,#a10b0b,#800d0d);
+    color: transparent;
+    background-clip: text;
+}
+
+.finish-article {
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-weight);
+    background: radial-gradient(farthest-corner circle,#2eff4b,#eeff6b);
+    color:transparent;
+    background-clip: text;
 }
 /*Hearts Of Darkness*/
 #heart {
