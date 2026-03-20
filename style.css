@@ -5,10 +5,7 @@
 
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    text-align: left;
-    max-width: 50rem;
-    margin: 0 auto;
-    margin-bottom: 4rem;
+    max-width: 90rem;
 }
 h1 {
     font-size: 1.9rem;
@@ -16,9 +13,9 @@ h1 {
     color: black
 }
 h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: red;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: red;
 }
 h3 {
     font-size: 1.3rem;
@@ -199,4 +196,23 @@ strong {
 /*factions*/
 #factions-html {
     background: black;
+}
+#header {
+    background-color: #20558a;
+    z-index: 15;
+    padding: 2rem;
+    display: inline-block;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+#header logo {
+    width: auto;
+    float: left;
+}
+#container-wrap {
+    text-align: left;
+    max-width: 64rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
 }
