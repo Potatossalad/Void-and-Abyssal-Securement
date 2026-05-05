@@ -201,9 +201,9 @@ strong {
     background-color: #20558a;
     z-index: 15;
     padding: 2rem;
-    display: inline-block;
+    display: block;
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    width: 100%;
+    width: 96.7%;
 }
 
 #header logo {
